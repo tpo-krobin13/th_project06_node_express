@@ -18,30 +18,25 @@ app.use((req, res, next) => {
 
 const mainRoutes = require('./routes');
 
+
 app.use(mainRoutes);
 
 
-app.use('/err', (req, res, next) => {
-    const err = new Error('That server blowed up real good!! We got problems boss.');
-    err.status = 500;
-    next(err);
-  })
-
 app.use('*',(req, res, next) => {
-    const err = new Error('Bummer, the page is gone. Just up and left!!');
+    const err = new Error('Bummer, the page is gone, can\'t be found. Just up and left!!');
     err.status = 404;
     next(err);
   })
   
   app.use((err, req, res, next) => {
-      res.locals.error = err;
-      res.status(err.status);
-      console.dir(err);
-      if (err.status == 404) {
-        res.render('page-not-found');
-      } else {
-        res.render('error');
-      }
+    res.locals.error = err;
+    res.status(err.status);
+    console.error(err);
+    if (err.status == 404) {
+      res.render('page-not-found');
+    } else {
+      res.render('error');
+    }
   })
 
   app.listen(3000, () => {
