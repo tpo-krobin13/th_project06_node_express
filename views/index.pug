@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 What's up everyone, what it do??
+
+    p Here's some cool stuff we did with JavaScript
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      each project in data.projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0][0]}`, alt=`${project.image_urls[0][1]}`)
+      

@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+
+        h1 #{profile.profile_name}
+
+        p #{profile.role}
+
+
+        .about-bio
+
+          p #{profile.bio}
+
+
+      .skills-contact-box.box
+        h6 Skills
+
+        ul
+          each item in profile.skills
+            li= item
+            
+
+        h6 Contact Info
+
+        ul
+          li= profile.phone
+          li= profile.email
+
+        //- I remoeved all of my social media accounts
+        a.btn-link(href= profile.linkedIn target="_new") LinkedIn
+        a.btn-link(href= profile.github target="_new") GitHub
+        a.btn-link(href= profile.twitter target="_new") Twitter
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

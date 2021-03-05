@@ -1,0 +1,77 @@
+{
+    "profile_pic": "images/profile.jpg",
+    "profile_alt": "Ken Robinson",
+    "projects": [{
+        "id" : 0,
+        "project_name": "Random Quotes",
+        "description": "Generates a series of random quotes using vanilla javascript",
+        "technologies": ["HTML", "CSS", "JavaScript", "Git and GitHub", "VS Code"],
+        "live_link": "https://tpo-krobin13.github.io/th_project01_random_quotes/",
+        "github_link": "https://github.com/tpo-krobin13/th_project01_random_quotes",
+        "image_urls": [
+            ["/static/images/project01_random_quotes/preview.png", "Preview Image"],
+            ["/static/images/project01_random_quotes/primary.png", "Primary Quote"],
+            ["/static/images/project01_random_quotes/secondary.png", "Secondary Quote"]
+        ]
+    },
+    {
+        "id" : 1,
+        "project_name": "Pagination",
+        "description": "Paginates a list of students",
+        "technologies": ["HTML", "CSS", "JavaScript", "Git and GitHub"],
+        "live_link": "https://tpo-krobin13.github.io/th_project02_pagination/",
+        "github_link": "https://github.com/tpo-krobin13/th_project02_pagination",
+        "image_urls": [
+            ["/static/images/project02_pagination/preview.png", "Preview Image"],
+            ["/static/images/project02_pagination/primary.png", "Primary Quote"],
+            ["/static/images/project02_pagination/secondary.png", "Secondary Quote"]
+        ]
+    },
+    {
+        "id" : 2,
+        "project_name": "JavaScript Form Validation",
+        "description": "Validates all the elements of a form using javascript and regular expressions",
+        "technologies": ["HTML", "CSS", "JavaScript", "Git and GitHub", "VS Code", "Accessibility"],
+        "live_link": "https://tpo-krobin13.github.io/th_project03_forms/",
+        "github_link": "https://github.com/tpo-krobin13/th_project03_forms",
+        "image_urls": [
+            ["/static/images/project03_forms/preview.png", "Preview Image"],
+            ["/static/images/project03_forms/primary.png", "Primary Quote"],
+            ["/static/images/project03_forms/secondary.png", "Secondary Quote"],
+            ["/static/images/project03_forms/tertiary.png", "Tertiary Quote"]
+        ]
+    },
+    {
+        "id" : 3,
+        "project_name": "Object Oriented Programming Game",
+        "description": "Explore object oriented games ",
+        "technologies": ["HTML", "CSS", "JavaScript", "Git and GitHub", "VS Code", "Accessibility", "OOP"],
+        "live_link": "https://tpo-krobin13.github.io/th_project04_oop_game/",
+        "github_link": "https://github.com/tpo-krobin13/th_project04_oop_game",
+        "image_urls": [
+            ["/static/images/project04_OOP_Game/preview.png", "Preview Image"],
+            ["/static/images/project04_OOP_Game/primary.png", "Primary Image"],
+            ["/static/images/project04_OOP_Game/secondary.png", "Secondary Image"],
+            ["/static/images/project04_OOP_Game/tertiary.png", "Tertiary Image"],
+            ["/static/images/project04_OOP_Game/quaternary.png", "Quaternary Image"],
+            ["/static/images/project04_OOP_Game/quinary.png", "Quinary Image"],
+            ["/static/images/project04_OOP_Game/senary.png", "Senary Image"]
+        ]
+    },
+    {
+        "id" : 4,
+        "project_name": "API Application",
+        "description": "Accesses a remote api to explore the use of asynchronous programming",
+        "technologies": ["HTML", "CSS", "JavaScript", "Git and GitHub", "VS Code", "Accessibility", "OOP", "Fetch and Public APIs", "Node.js", "Express", "Pug"],
+        "live_link": "https://tpo-krobin13.github.io/th_project05_public_api/",
+        "github_link": "https://github.com/tpo-krobin13/th_project05_public_api",
+        "image_urls": [
+            ["/static/images/project05_API_application/preview.png", "Preview Image"],
+            ["/static/images/project05_API_application/primary.png", "Primary Image"],
+            ["/static/images/project05_API_application/secondary.png", "Secondary Image"],
+            ["/static/images/project05_API_application/tertiary.png", "Tertiary Image"],
+            ["/static/images/project05_API_application/quaternary.png", "Quaternary Image"]
+        ]
+    }
+    ]}
+     

@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1= error.message 
+    
+    h2= error.status
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      if error.status === 500
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/uHkvD7-u7y8?autoplay=true&t=22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    pre= error.stack
+      

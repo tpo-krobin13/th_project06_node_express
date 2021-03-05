@@ -1,0 +1,13 @@
+{
+    "profile_image": "images/profile.jpg",
+    "profile_name": "Ken Robinson",
+    "role": "Full Stack JavaScript Developer Coach",
+    "bio": "Like LL Cool J said, I'm bad!! ",
+    "phone": "404-777-9311",
+    "email": "ken@there.com",
+    "linkedIn": "http://www.linkedin.com",
+    "twitter": "http://www.twitter.com",
+    "github": "http://github.com/tpo-krobin13",
+    "Description" : "Welcome to the site. make yourself at home!",
+    "skills" : ["HTML", "CSS", "JavaScript", "Git and GitHub", "VS Code", "Accessibility", "OOP", "Fetch and Public APIs", "Node.js", "Express", "Pug"]
+  }
